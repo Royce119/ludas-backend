@@ -1,0 +1,29 @@
+{
+  "name": "ludas-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-signature": "^1.0.6",
+    "cors": "^2.8.5",
+    "destroy": "^1.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.2",
+    "npm": "^10.2.5",
+    "session-file-store": "^1.5.0"
+  },
+  "scripts": {
+    "test": "",
+    "build": "nodemon src/server.js",
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
